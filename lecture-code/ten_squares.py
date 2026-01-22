@@ -1,2 +1,2 @@
 for i in range(1, 11):
-    print("{}**2 = {}".format(i, i**2))
+    print(f"{i}**2 = {i**2}")

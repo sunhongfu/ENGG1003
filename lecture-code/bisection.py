@@ -17,6 +17,6 @@ while abs(f(xMID)) > eps:
     xMID = (xLO + xHI) / 2
     iters += 1
 
-print('Solution: {:.5f}'.format(xMID))
-print('Number of iterations: {}'.format(iters))
-print('Check: f({:.5f}) = {:.5f}'.format(xMID, f(xMID)))
+print(f'Solution: {xMID:.5f}')
+print(f'Number of iterations: {iters}')
+print(f'Check: f({xMID:.5f}) = {f(xMID):.5f}')

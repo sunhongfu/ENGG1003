@@ -10,7 +10,7 @@ def T(t):
 a = 6
 b = 12
 Tavg = integ.trapezoidal(T, a, b)/(b-a)
-print('Average temp over [{:},{:}] hours is {:.2f} degC'.format(a, b, Tavg))
+print(f'Average temp over [{a},{b}] hours is {Tavg:.2f} degC')
 
 t = np.linspace(0, 24, num=1001)
 t612 = np.linspace(6, 12, num=1001)

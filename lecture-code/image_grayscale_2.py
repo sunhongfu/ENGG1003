@@ -11,7 +11,4 @@ plt.imshow(m, cmap='Greys')
 plt.xticks([])      # suppress x-axis ticks
 plt.yticks([])      # suppress y-axis ticks
 
-# save the figure
-plt.savefig('gray_image_2.jpg')
-
 plt.show()

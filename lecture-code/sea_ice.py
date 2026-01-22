@@ -21,8 +21,8 @@ b = popt[1]
 
 yearto2080 = range(1979, 2080)
 
-print('extent(yr) = {:.3f}*yr + {:.3f}'.format(m, b))
-print('Estimate September sea-ice extent is 0 in year = {}'.format(int(-b/m)))
+print(f'extent(yr) = {m:.3f}*year + {b:.3f}')
+print(f'Estimate September sea-ice extent is 0 in year = {int(-b/m)}')
 plt.plot(year, extent, 'o')
 plt.plot(yearto2080, line(yearto2080, m, b), 'r')
 plt.plot(-b/m, 0, 'gs')   # green square when ice extent is zero

@@ -1,13 +1,10 @@
 import numpy as np
 
-# a = [0. 1. 2. 3.]
 a = np.linspace(0, 3, num=4)
-print(a)
+print(a) # a = [0. 1. 2. 3.]
 
-# s = 2.0
 s = a[2]
-print(s)
+print(s) # s = 2.0
 
-# a = [4. 1. 2. 3.]
 a[0] = 4
-print(a)
+print(a) # a = [4. 1. 2. 3.]
